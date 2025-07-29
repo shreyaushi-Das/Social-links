@@ -1,0 +1,51 @@
+.body {
+              background-color: black;
+              color: white;
+              text-align:center;
+              font-family: sans-serif;
+}
+
+            .Profile-pic{
+                height:200px;
+                width: 80%;
+                max-width: 200px;
+
+                object-fit:cover;
+                border-radius:150px;
+                display: block;
+                margin-left:auto;
+                margin-right:auto;
+            }
+            .name {
+              font-size:25px;
+              color: antiquewhite;
+            }
+            .subheading{
+                color: antiquewhite;
+                margin-top: 0%; /* Reduce gap */
+                font-size: 15px;
+            }
+            .button-container{
+        
+               display: flex;
+               flex-direction: column;
+               align-items: center;  /* centers all buttons inside */
+            }
+            .social-button{
+             font-size: 20px;
+             width: 80%;
+             max-width: 150px;
+             text-align:center;
+             color: rgb(111, 66, 234);
+             padding: 10px 20px; /* Add horizontal padding */
+             border: 1px solid rgb(111, 66, 234);
+             border-radius: 20px;
+             display: block;
+             transition: background-color 0.3s, color 0.3s;
+             cursor: pointer;
+             margin: 10px auto;
+            }
+           .social-button:hover {
+            background-color: rgb(111, 66, 234);
+            color: white;
+            }
